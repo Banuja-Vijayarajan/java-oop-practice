@@ -15,9 +15,12 @@ public class Car{
         System.out.println("Model: " + model);
         System.out.println("Year: " + year);
     }
-        
+        void startEngine(){
+             System.out.println("Engine Started!");
+        }
     public static void main(String[] args){
     Car car = new Car("Toyota","Corolla",2010);
     car.displayDetails();
+    car.startEngine();
     }
 }
