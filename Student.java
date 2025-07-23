@@ -12,7 +12,10 @@ class Student{
 		System.out.println("Your name is : "+name);
 		System.out.println("Your age is : "+age);
 		System.out.println("Your marks is : "+marks);
-		if(marks==100 || marks>=80){   //if(marks>=80) is also right
+			}
+
+	void assignGrade(){
+			if(marks==100 || marks>=80){   //if(marks>=80) is also right
 			System.out.println("Your grade is: A");
 		}else if(marks>=60){
 				System.out.println("Your grade is: B");
@@ -20,7 +23,7 @@ class Student{
 				System.out.println("Your grade is: C");
 			}else{
 				System.out.println("Your grade is: F");
-			}
+	}
 	
 	}
 	
@@ -38,5 +41,6 @@ class Student{
 		s1.marks = sc.nextDouble();
 		
 		s1.displayDetails();
+		s1.assignGrade();
 	}
 }
