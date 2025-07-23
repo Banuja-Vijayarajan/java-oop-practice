@@ -15,7 +15,7 @@ class Student{
 			}
 
 	void assignGrade(){
-			if(marks==100 || marks>=80){   //if(marks>=80) is also right
+			if(marks==100 || marks>=80){   //if(marks>=80) is also correct
 			System.out.println("Your grade is: A");
 		}else if(marks>=60){
 				System.out.println("Your grade is: B");
